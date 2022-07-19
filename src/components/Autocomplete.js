@@ -23,7 +23,7 @@ const AutocompleteUi = () => {
     useEffect(() => {
         getApi()
         console.log(idUser)
-    }, [idUser])
+    }, [])
 
     return (
         <>
