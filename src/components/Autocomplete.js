@@ -35,7 +35,7 @@ const AutocompleteUi = () => {
                 disablePortal
                 id="combo-box-demo"
                 options={dataUser}
-                sx={{ width: 300 }}
+                
                 renderInput={(params) => <TextField {...params} label="Users" />}
             />
         </>
